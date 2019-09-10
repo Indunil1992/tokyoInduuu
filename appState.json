@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "952f76d6-020b-4c76-aebc-359495e74eda": {
+        "id": "952f76d6-020b-4c76-aebc-359495e74eda",
+        "parent": null,
+        "name": "tokyoInduuu",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "026e92ee-ea41-4cda-b4ec-01d3cea1b237"
+        ],
+        "isRemovable": false,
+        "filePath": "tokyoInduuu"
+      },
+      "026e92ee-ea41-4cda-b4ec-01d3cea1b237": {
+        "id": "026e92ee-ea41-4cda-b4ec-01d3cea1b237",
+        "parent": "952f76d6-020b-4c76-aebc-359495e74eda",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "tokyoInduuu/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed tokyooo\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapNortheast1indunilcaltestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "952f76d6-020b-4c76-aebc-359495e74eda",
+    "openFiles": [
+      "026e92ee-ea41-4cda-b4ec-01d3cea1b237"
+    ],
+    "currentFileId": "026e92ee-ea41-4cda-b4ec-01d3cea1b237",
+    "resources": {
+      "apigapNortheast1indunilcaltestinduany": {
+        "name": "apigapNortheast1indunilcaltestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-northeast-1",
+          "apiMode": 0,
+          "apiName": "indunilcal",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "Test",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "tokyoInduuu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-northeast-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568109906341
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "tokyoInduuu",
+      "url": "https://github.com/Indunil1992/tokyoInduuu"
+    }
+  }
+}
